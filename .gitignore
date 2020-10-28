@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/google-auth/node_modules
+/google-auth/.pnp
+/google-auth/.pnp.js
+
+# testing
+/google-auth/coverage
+
+# production
+/google-auth/build
+
+# misc
+/google-auth/.DS_Store
+/google-auth/.env.local
+/google-auth/.env.development.local
+/google-auth/.env.test.local
+/google-auth/.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
